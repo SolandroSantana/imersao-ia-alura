@@ -41,13 +41,13 @@ Este aplicativo React utiliza um chatbot para auxiliar na geração de arquivos 
 1. Clone o repositório:
 
 ```bash
-git clone https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories
+git clone https://github.com/SolandroSantana/imersao-ia-alura
 ```
 
 2. Acesse o diretório do projeto:
 
 ```bash
-cd gerador-readme-react
+cd imersao-ia-alura
 ```
 
 3. Instale as dependências:
@@ -56,10 +56,16 @@ cd gerador-readme-react
 npm install || yarn install
 ```
 
-4. Execute o aplicativo:
+4. Crie uma arquivo .env com a sua API KEY do Google
 
 ```bash
-npm start || yarn start
+VITE_GOOGLE_API_KEY='sua chave aqui'
+```
+
+5. Execute o aplicativo:
+
+```bash
+npm run dev
 ```
 
 **Uso:**
@@ -80,7 +86,7 @@ Este aplicativo está licenciado sob a licença MIT.
 
 **Observações Finais:**
 
-Lembre-se que este aplicativo é apenas uma ferramenta para auxiliar na geração de READMEs. A qualidade final da documentação depende da revisão e do aprimoramento manual do arquivo gerado.
+Lembre-se que este aplicativo é apenas uma ferramenta para auxiliar na geração de READMEs e demonstração. A qualidade final da documentação depende da revisão e do aprimoramento manual do arquivo gerado.
 
 
 
